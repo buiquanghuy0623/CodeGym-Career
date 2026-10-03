@@ -1,0 +1,29 @@
+/* Custom CSS - Material Design Enhancements */
+
+/* Hero Section Styling */
+.intro-section {
+    background: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 500px;
+}
+
+/* Material Shadow on Hover */
+.hoverable {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hoverable:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Adjust padding for Fixed Navbar */
+body {
+    padding-top: 56px;
+}
